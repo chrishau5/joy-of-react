@@ -1,0 +1,33 @@
+{
+  "name": "toast-component",
+  "version": "0.1.0",
+  "private": true,
+  "author": "Josh Comeau <me@joshwcomeau.com>",
+  "dependencies": {
+    "eslint-config-react-app": "^7.0.1",
+    "new-component": "5.0.2",
+    "parcel": "2.9.2",
+    "parcel-reporter-static-files-copy": "1.5.2",
+    "prettier": "^3.1.0",
+    "prettier-plugin-multiline-arrays": "^3.0.1",
+    "process": "0.11.10",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-feather": "2.0.10",
+    "rimraf": "^5.0.1"
+  },
+  "scripts": {
+    "predev": "rimraf .parcel-cache dist",
+    "dev": "parcel public/index.html",
+    "build": "parcel build public/index.html",
+    "new-component": "new-component"
+  },
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "staticFiles": {
+    "staticPath": "assets"
+  },
+  "devDependencies": {
+    "eslint": "^8.54.0",
+    "eslint-plugin-markdown": "^3.0.1"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "tabWidth": 2,
+  "useTabs": false,
+  "prettier.singleQuote": true,
+  "singleAttributePerLine": true,
+  "multilineArraysWrapThreshold": 3,
+  "plugins": ["prettier-plugin-multiline-arrays"]
+}
